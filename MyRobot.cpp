@@ -73,6 +73,7 @@ public:
 					steps.pop();
 				}
 			}
+			GetWatchdog().feed();
 		}
 	}
 	void OperatorControl()
